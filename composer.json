@@ -47,6 +47,12 @@
         ],
         "test": [
             "./vendor/bin/phpunit tests"
+        ],
+        "produciraj": [
+            "@test",
+            "git add .",
+            "git commit -m \"nova verzija\"",
+            "git push heroku master"
         ]
     },
     "extra": {
