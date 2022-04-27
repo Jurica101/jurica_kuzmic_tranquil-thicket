@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Str;
 
-$env_za_bazu = parse_url('mysql://b83e97b56d5a05:b10d8704@us-cdbr-east-05.cleardb.net/heroku_635749beea54510?reconnect=true')
+$env_za_bazu = parse_url('mysql://b83e97b56d5a05:b10d8704@us-cdbr-east-05.cleardb.net/heroku_635749beea54510?reconnect=true');
 
 return [
 
